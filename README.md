@@ -17,15 +17,15 @@ python -m venv .venv
 
 * Ativar o ambiente virtual
 Navegue até a pasta do projeto e execute o comando:  
-    - Windows
-    ```shell
-    .venv/Scripts/activate
-    ```
+ - Windows
+ ```shell
+.venv/Scripts/activate
+ ```
 
-    - Linux
-    ```shell
-    source .\.venv\bin\activate
-    ```
+- Linux
+```shell
+source .\.venv\bin\activate
+```
     
 * Instalando as dependências do projeto
 ```shell
@@ -44,14 +44,20 @@ streamlit run .\main.py
 ### Raspberry
 #### Rodando a aplicação:
 
-* Para executar o Client (raspberrypi) 
-Navegue até a pasta ***client*** e execute o comando:    
-
+* Ativar o ambiente virtual
+Navegue até a pasta do projeto e execute o comando:  
 ```shell
-python app.py
-```
+ source .venv\bin\activate
+ ```
 
 * Instalando as dependências do projeto
 ```shell
 pip install -r .\requirements.txt
+```
+
+* Para executar o Client (raspberrypi) 
+Navegue até a pasta ***client*** e execute o comando:    
+
+```shell
+python3 app.py
 ```
