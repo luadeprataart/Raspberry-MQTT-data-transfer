@@ -14,6 +14,10 @@ Transferência de dados utilizando uma Raspberry, adquirindo dados via USB de di
 python -m pip install --upgrade pip
 python -m venv .venv
 ```
+* Instalando as dependências do projeto
+```shell
+pip install -r .\requirements.txt
+```
 
 * Ativar o ambiente virtual
 Navegue até a pasta do projeto e execute o comando:  
@@ -27,10 +31,6 @@ Navegue até a pasta do projeto e execute o comando:
     source .\.venv\bin\activate
     ```
 
-* Instalar as dependências do projeto
-```shell
-pip install -r .\requirements.txt
-```
 
 #### Rodando a aplicação:
 * Para executar a Dashboard
@@ -42,6 +42,11 @@ streamlit run .\main.py
 
 ### Raspberry
 #### Rodando a aplicação:
+* Instalando as dependências do projeto
+```shell
+pip install -r .\requirements.txt
+```
+
 * Para executar o Client (raspberrypi) 
 Navegue até a pasta ***client*** e execute o comando:    
 
