@@ -15,34 +15,49 @@ python -m pip install --upgrade pip
 python -m venv .venv
 ```
 
-* Ativar o ambiente virtual  
-    - Windows
-    ```shell
-    .venv/Scripts/activate
-    ```
+* Ativar o ambiente virtual
+Navegue até a pasta do projeto e execute o comando:  
+   - Windows
+   ```shell
+  .venv/Scripts/activate
+   ```
 
-    - Linux
-    ```shell
-    source .\.venv\bin\activate
-    ```
-
-* Instalar as dependências do projeto
+  - Linux
+  ```shell
+  source .\.venv\bin\activate
+  ```
+    
+* Instalando as dependências do projeto
 ```shell
 pip install -r .\requirements.txt
 ```
 
-## Para rodar a aplicação:
+
+#### Rodando a aplicação:
 * Para executar a Dashboard
 Navegue até a pasta ***dashboard*** e execute o comando:  
 
 ```shell
 streamlit run .\main.py
 ```  
+
+### Raspberry
+#### Rodando a aplicação:
+
+* Ativar o ambiente virtual
+Navegue até a pasta do projeto e execute o comando:  
+```shell
+ source .venv\bin\activate
+ ```
+
+* Instalando as dependências do projeto
+```shell
+pip install -r .\requirements.txt
+```
+
 * Para executar o Client (raspberrypi) 
 Navegue até a pasta ***client*** e execute o comando:    
 
 ```shell
-python .\app.py
+python3 app.py
 ```
-
-### Raspberry
